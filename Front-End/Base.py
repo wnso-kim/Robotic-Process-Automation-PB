@@ -9,8 +9,8 @@ import sys
 class DB :
     def __init__(self):
         self.db = pymysql.connect(
-            host='3.39.234.81', user='wc', 
-            password='root', port=3306, charset='utf8')
+            host='host', user='wc', 
+            password='password', port=3306, charset='utf8')
 
     # 커서 반환 함수
     def GetCursor(self):
